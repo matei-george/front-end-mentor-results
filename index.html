@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+      <title>Frontend Mentor | Results summary component</title>
+      <!-- Font : Hanken Grotesk -->
+      <style>
+         @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+      </style>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <main class="wrapper">
+         <div class="left-container">
+            <p>Your Result</p>
+            <div class="score-container">
+               <p class="result">76</p>
+               <p class="total-result">of 100</p>
+            </div>
+            <h1 class="summary">Great</h1>
+            <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
+         </div>
+         <div class="right-container">
+            <p class="title">Summary</p>
+            <div class="summary-item item-1">
+               <div class="summary-item__category"><img src="assets/images/icon-reaction.svg" alt="red-lightning-icon" />Reaction</div>
+               <div class="summary-item__score"><span class="obtained-score"> 80</span> / 100</div>
+            </div>
+            <div class="summary-item item-2">
+               <div class="summary-item__category"><img src="assets/images/icon-memory.svg" alt="yellow-brain-icon" />Memory</div>
+               <div class="summary-item__score"><span class="obtained-score">92</span> / 100</div>
+            </div>
+            <div class="summary-item item-3">
+               <div class="summary-item__category"><img src="assets/images/icon-verbal.svg" alt="green-message-icon" />Verbal</div>
+               <div class="summary-item__score"><span class="obtained-score">61</span> / 100</div>
+            </div>
+            <div class="summary-item item-4">
+               <div class="summary-item__category"><img src="assets/images/icon-visual.svg" alt="blue-eye=icon" />Visual</div>
+               <div class="summary-item__score"><span class="obtained-score">72</span> / 100</div>
+            </div>
+            <button class="continue">Continue</button>
+            <footer class="footer">
+               <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a></p>
+               <p>Coded by <a href="https://www.github.com/matei-george">Matei</a>.</p>
+            </footer>
+         </div>
+      </main>
+   </body>
+</html>
